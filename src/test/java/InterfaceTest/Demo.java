@@ -7,6 +7,7 @@ import UIFrameWork.BrowserUtils;
  */
 public class Demo {
     public static void main(String[] args) {
-        BrowserUtils br = new BrowserUtils();
+
+        System.out.println("sb");
     }
 }
