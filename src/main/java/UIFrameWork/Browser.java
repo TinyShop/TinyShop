@@ -11,8 +11,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  * Created by Administrator on 2017-04-23.
  */
 public class Browser {
-    private WebDriver dr;
-    private ReportUtils report = new ReportUtils();
+    public WebDriver dr;
+    public ReportUtils report = new ReportUtils();
     public Browser() {
             setUpDriver(SeleniumConfig.DRIVER_TYPE);
             maxBrowser();
