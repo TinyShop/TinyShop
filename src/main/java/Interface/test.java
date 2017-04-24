@@ -5,4 +5,5 @@ package Interface;
  */
 public class test {
   System.out.println("hellohello"); 
+  int a =0;
 }
