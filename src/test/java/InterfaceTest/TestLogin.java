@@ -1,5 +1,6 @@
 package InterfaceTest;
 
+import Interface.Login;
 import Interface.login;
 import InterfaceFrameWork.RequestUtils;
 import Utils.ExcelIterator;
@@ -20,6 +21,6 @@ public class TestLogin {
     }
     @Test(dataProvider = "login")
     public  void login(Map<String,String>map){
-        String response= login.Login(map.get("请求路径"));
+        String response= Login(map.get("请求路径"));
     }
 }
